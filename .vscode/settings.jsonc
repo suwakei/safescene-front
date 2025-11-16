@@ -1,0 +1,54 @@
+{
+  // ==== 基本設定 ====
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // ==== Prettier 設定 ====
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.trailingComma": "es5",
+  "prettier.printWidth": 100,
+  "prettier.tabWidth": 2,
+  "prettier.endOfLine": "auto",
+
+  // ==== ESLint 設定 ====
+  "eslint.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "next",
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.organizeImports": "always",
+  },
+
+  // ==== Tailwind CSS 設定 ====
+  "tailwindCSS.emmetCompletions": true,
+  "editor.quickSuggestions": {
+    "strings": true,
+  },
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+
+  // ==== TypeScript 設定 ====
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+
+  // ==== その他 ====
+  "files.exclude": {
+    "**/.next": true,
+    "**/node_modules": true,
+    "**/dist": true,
+  },
+  "files.associations": {
+    "*.css": "tailwindcss",
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+}
